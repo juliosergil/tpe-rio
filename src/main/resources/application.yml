@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: test
+
+  datasource:
+    url:
+    driverClassName:
+    username:
+    password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+  properties:
+      hibernate: format_sql=true
+
+  mvc:
+  pathmatch:
+    matching-strategy: ant-path-matcher
